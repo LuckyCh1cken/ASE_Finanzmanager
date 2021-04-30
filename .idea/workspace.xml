@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d219a5-a9a7-4c74-9e05-e7a8bee6cd8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapters/1-adapters.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapters/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-application/2-application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/3-domain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_AddTransaktion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_StatisticsCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_TransactionHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/entities/FinanceIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_FinanceIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASE_Finanzmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ASE_Finanzmanager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/adapters.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/application.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/entities/FinanceIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/FinanceIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/valueobjects/VO_Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,10 +100,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jdk" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -157,7 +147,11 @@
       <updated>1619595795830</updated>
       <workItem from="1619595798202" duration="6410000" />
       <workItem from="1619620837469" duration="405000" />
-      <workItem from="1619621400052" duration="2007000" />
+      <workItem from="1619621400052" duration="2607000" />
+      <workItem from="1619790642178" duration="499000" />
+      <workItem from="1619791151594" duration="57000" />
+      <workItem from="1619791217635" duration="134000" />
+      <workItem from="1619791362201" duration="3820000" />
     </task>
     <servers />
   </component>

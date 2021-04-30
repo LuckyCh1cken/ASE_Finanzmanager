@@ -1,9 +1,9 @@
 package entities;
 
-public class FinanceIndicator {
+public class Entitie_FinanceIndicator {
     private final Integer indicatorValue;
 
-    public FinanceIndicator(int indicatorValue){
+    public Entitie_FinanceIndicator(int indicatorValue){
 
         if(indicatorValue < 0 || indicatorValue > 100){
             throw new IllegalArgumentException("IndicatorValue not valid");
