@@ -4,120 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d219a5-a9a7-4c74-9e05-e7a8bee6cd8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_AddTransaktion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_StatisticsCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_TransactionHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Statistics.java" afterDir="false" />
+    <list default="true" id="9ec7d311-1bba-4c90-94f2-d6a271510ab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Plugins/0-Plugins.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Plugins/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-adapter/1-adapter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account_Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction_Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/aggregates/Aggregate_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_AccountName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/entities/FinanceIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_FinanceIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/0-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/1-adapters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/1-adapters.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/2-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/2-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/3-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/3-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_AddTransaktion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_StatisticsCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_StatisticsCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_TransactionHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASE_Finanzmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ASE_Finanzmanager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/domain/valueobjects/Transaction.java" />
-        <option value="$PROJECT_DIR$/domain/src/valueobjects/Transaction.java" />
-        <option value="$PROJECT_DIR$/domain/src/valueobjects/VO_Transaction.java" />
-        <option value="$PROJECT_DIR$/domain/src/entities/InvalidIndicatorValueException.java" />
-        <option value="$PROJECT_DIR$/domain/src/entities/FinanceIndicator.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="215" />
-    <option name="y" value="145" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectId" id="1rnop3SZtO6cG0AmDNXvnm1IEjN" />
+  <component name="ProjectId" id="1sOtDNhTsIrAubDjsEb3RnKImb3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ASE_Finanzmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASE_Finanzmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASE_Finanzmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASE_Finanzmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASE_Finanzmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASE_Finanzmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASE_Finanzmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASE_Finanzmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jdk" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\IntelliJProjects\ASE_Finanzmanager\ASE_Finanzmanager\domain\src" />
-    </key>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ASE_Finanzmanager" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
+      <module name="0-frontend" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,172 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Finanzmanager" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10d219a5-a9a7-4c74-9e05-e7a8bee6cd8a" name="Default Changelist" comment="" />
-      <created>1619595795830</created>
+      <changelist id="9ec7d311-1bba-4c90-94f2-d6a271510ab2" name="Default Changelist" comment="" />
+      <created>1620755345555</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619595795830</updated>
-      <workItem from="1619595798202" duration="6410000" />
-      <workItem from="1619620837469" duration="405000" />
-      <workItem from="1619621400052" duration="2607000" />
-      <workItem from="1619790642178" duration="499000" />
-      <workItem from="1619791151594" duration="57000" />
-      <workItem from="1619791217635" duration="134000" />
-      <workItem from="1619791362201" duration="3820000" />
+      <updated>1620755345555</updated>
+      <workItem from="1620755348101" duration="396000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6815000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25198728" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" weight="0.3298887" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32969603" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domain/valueobjects/Transaction.java" />
-    <entry file="file://$PROJECT_DIR$/domain/valueobjects/Transaction" />
-    <entry file="file://$PROJECT_DIR$/domain/domain.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/entities/InvalidIndicatorValueException.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/valueobjects/VO_Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/entities/FinanceIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>adapters</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

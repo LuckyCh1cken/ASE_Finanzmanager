@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="2-application" />
-        <module name="1-adapters" />
+        <module name="1-adapter" />
+        <module name="0-Plugins" />
         <module name="0-frontend" />
         <module name="3-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="0-frontend" target="11" />
-      <module name="1-adapters" target="11" />
+      <module name="0-Plugins" target="11" />
+      <module name="1-adapter" target="11" />
       <module name="2-application" target="11" />
-      <module name="3-domain" target="11" />
-      <module name="ASE_Finanzmanager" target="11" />
+      <module name="3-domain" target="16" />
+      <module name="ASE_Finanzmanager" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

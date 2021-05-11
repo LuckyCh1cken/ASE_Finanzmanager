@@ -1,4 +1,6 @@
 package domainservices;
 
-public class Domain_Service_StatisticsCalculation {
+public interface Domain_Service_StatisticsCalculation {
+
+
 }

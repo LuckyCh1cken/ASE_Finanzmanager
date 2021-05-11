@@ -1,4 +1,4 @@
 package repositories;
 
-public class Repository_Statistics {
+public interface Repository_Statistics {
 }
