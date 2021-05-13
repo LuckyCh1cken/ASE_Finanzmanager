@@ -18,5 +18,6 @@
     <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="module" module-name="0-Plugins" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

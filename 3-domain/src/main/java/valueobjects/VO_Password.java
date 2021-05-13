@@ -24,13 +24,9 @@ public final class VO_Password {
     }
 
     private String hashPassword(String password){
-        SecureRandom random = new SecureRandom();
-        byte[] salt = new byte[16];
-        random.nextBytes(salt);
 
         try{
             MessageDigest md = MessageDigest.getInstance("SHA-512");
-            md.update(salt);
             byte[] hashedPassword = md.digest(password.getBytes(StandardCharsets.UTF_8));
             return new String(hashedPassword);
 

@@ -27,6 +27,7 @@
         <module>1-adapters</module>
         <module>2-application</module>
         <module>3-domain</module>
+        <module>1-adapter</module>
 
     </modules>
 

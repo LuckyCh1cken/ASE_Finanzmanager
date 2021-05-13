@@ -8,13 +8,16 @@ import org.json.simple.parser.ParseException;
 import repositories.Repository_Account;
 import valueobjects.VO_AccountName;
 import valueobjects.VO_Password;
+import valueobjects.VO_SpendingType;
 import valueobjects.VO_Transaction;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Repository_Bridge_Account implements Repository_Account {
@@ -45,11 +48,28 @@ public class Repository_Bridge_Account implements Repository_Account {
     }
 
     @Override
-    public boolean loadallaccounts() {
+    public boolean loadAllAccounts() {
         if(!accountFileIsLoaded){
             accountFileIsLoaded = true;
             return loadAccountsFromFile(accountsFileName);
         }
+        return true;
+    }
+
+    @Override
+    public List<Aggregate_Account> getAllAccounts() {
+        if(!accountFileIsLoaded){
+            throw new RuntimeException("Accounts are not loaded");
+        }
+        return accounts;
+    }
+
+    @Override
+    public boolean saveChanges() {
+        if(!accountFileIsLoaded){
+            throw new RuntimeException("Accounts are not loaded");
+        }
+        saveAccountsToFile(accountsFileName);
         return true;
     }
 
@@ -89,6 +109,7 @@ public class Repository_Bridge_Account implements Repository_Account {
 
                 accountList.forEach(account -> {
                     Aggregate_Account parsedAccount = parseAccountObject( (JSONObject) account);
+
                     accounts.add(parsedAccount);
                 });
 
@@ -130,12 +151,31 @@ public class Repository_Bridge_Account implements Repository_Account {
 
         String name = (String) account.get("name");
         String hashedPassword = (String) account.get("hpw");
-        double balance = (double) account.get("balance");
-        List<VO_Transaction> transactions = (List<VO_Transaction>) account.get("transaction");
+
         Entitie_Wallet wallet = new Entitie_Wallet();
-        transactions.forEach(vo_transaction -> {
-            wallet.addTransaction(vo_transaction);
+
+        JSONArray tempTransactions = (JSONArray) account.get("transactions");
+        tempTransactions.forEach( transaction -> {
+          wallet.addTransaction(parseTransactionObject((JSONObject) transaction));
         });
+
         return new Aggregate_Account(new VO_AccountName(name), new VO_Password(hashedPassword, false), wallet);
+    }
+
+    private VO_Transaction parseTransactionObject(JSONObject transaction){
+        Double value = (double) transaction.get("Value");
+        String spendingType = (String) transaction.get("SpendingType");
+
+        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+        try {
+            Date date = formatter.parse((String) transaction.get("Date"));
+            return new VO_Transaction(value, new VO_SpendingType(spendingType), date);
+
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }

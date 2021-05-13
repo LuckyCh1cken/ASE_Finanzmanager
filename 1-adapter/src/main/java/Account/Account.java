@@ -1,6 +1,7 @@
 package Account;
 
 import Transaction.Transaction;
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.util.List;
@@ -21,9 +22,14 @@ public class Account {
     public JSONObject toJson() {
         JSONObject entry = new JSONObject();
 
+        JSONArray tempTransactions = new JSONArray();
+        transactions.forEach(transaction -> {
+            tempTransactions.add(transaction.toJson());
+        });
+
         entry.put("name", name);
         entry.put("hpw", hashedPassword);
-        entry.put("transactions", transactions);
+        entry.put("transactions", tempTransactions);
 
         return entry;
     }

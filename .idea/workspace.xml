@@ -4,47 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ec7d311-1bba-4c90-94f2-d6a271510ab2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-Plugins/0-Plugins.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-Plugins/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapter/1-adapter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account_Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction_Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/aggregates/Aggregate_Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_AccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_AccountName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7c28f100-9def-4ec8-ae98-7bd5ffcd0708" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Controller_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Scene_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/target/classes/Repository_Bridge_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/classes/Repository_Bridge_Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/0-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapters/1-adapters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/1-adapters.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-application/2-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/2-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/3-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/3-domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_AddTransaktion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_StatisticsCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_StatisticsCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/entities/Entitie_TransactionHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASE_Finanzmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ASE_Finanzmanager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/1-adapters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction_Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction_Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/target/classes/Account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/target/classes/Account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction_Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction_Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/domainservices/Domain_Service_Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/repositories/Repository_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/repositories/Repository_Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_SpendingType.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_SpendingType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +42,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1sOtDNhTsIrAubDjsEb3RnKImb3" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt://E:/Intellij/IntelliJ IDEA 2019.1.2/jre64!/java.base/java/lang/IllegalArgumentException.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1sToWV62cJsnEhyZHTOzKVKx0sQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,13 +68,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SceneBuilder/SceneBuilder.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Scene_Login">
     <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
       <module name="0-frontend" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;G:\JavaFx\javafx-sdk-16\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scene_Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scene_Login" />
+      <module name="0-frontend" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;G:\JavaFx\javafx-sdk-16\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,8 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Finanzmanager" />
+      <item itemvalue="Application.Scene_Login" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scene_Login" />
         <item itemvalue="Application.Finanzmanager" />
       </list>
     </recent_temporary>
@@ -98,16 +120,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ec7d311-1bba-4c90-94f2-d6a271510ab2" name="Default Changelist" comment="" />
-      <created>1620755345555</created>
+      <changelist id="7c28f100-9def-4ec8-ae98-7bd5ffcd0708" name="Default Changelist" comment="" />
+      <created>1620905974222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620755345555</updated>
-      <workItem from="1620755348101" duration="396000" />
+      <updated>1620905974222</updated>
+      <workItem from="1620905976659" duration="14385000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

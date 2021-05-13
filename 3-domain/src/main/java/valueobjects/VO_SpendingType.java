@@ -16,7 +16,7 @@ public class VO_SpendingType {
             this.spendingType = spendingType;
         }
         else {
-            throw new IllegalArgumentException("Not a spendingType");
+            throw new IllegalArgumentException("Not a spendingType: " + spendingType);
         }
     }
 

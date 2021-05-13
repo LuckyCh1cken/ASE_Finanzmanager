@@ -9,7 +9,11 @@ import java.util.List;
 
 public interface Repository_Account {
         void addAccount(Aggregate_Account newAccount);
+
         Aggregate_Account getAccountById(String id);
-        boolean loadallaccounts();
+        List<Aggregate_Account> getAllAccounts();
+
+        boolean loadAllAccounts();
+        boolean saveChanges();
 
 }
