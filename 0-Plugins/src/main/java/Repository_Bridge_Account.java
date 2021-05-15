@@ -49,6 +49,7 @@ public class Repository_Bridge_Account implements Repository_Account {
 
     @Override
     public boolean loadAllAccounts() {
+        System.out.println("loading");
         if(!accountFileIsLoaded){
             accountFileIsLoaded = true;
             return loadAccountsFromFile(accountsFileName);

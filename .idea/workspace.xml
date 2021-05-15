@@ -5,37 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c28f100-9def-4ec8-ae98-7bd5ffcd0708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Controller_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Scene_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scene_factory/Scene_Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scene_factory/Scene_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scene_service/Scene_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Add_Transaction_Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Basic_Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Login_Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Main_Screen_Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Add_Transaction.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Main_Screen.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/target/classes/Repository_Bridge_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/classes/Repository_Bridge_Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/0-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/Controller_Login.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/Scene_Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/1-adapters.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction_Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/src/main/java/Transaction/Transaction_Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/target/classes/Account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/target/classes/Account/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction_Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/target/classes/Transaction/Transaction_Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/repositories/Repository_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/domainservices/Domain_Service_Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/repositories/Repository_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/repositories/Repository_Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_Password.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_SpendingType.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_SpendingType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +68,7 @@
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Scene_Login">
+  <component name="RunManager" selected="Application.Finanzmanager">
     <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
       <module name="0-frontend" />
@@ -95,13 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,8 +104,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Scene_Login" />
         <item itemvalue="Application.Finanzmanager" />
+        <item itemvalue="Application.Scene_Login" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620905974222</updated>
-      <workItem from="1620905976659" duration="14385000" />
+      <workItem from="1620905976659" duration="14466000" />
+      <workItem from="1621082990407" duration="12443000" />
     </task>
     <servers />
   </component>
@@ -135,10 +128,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

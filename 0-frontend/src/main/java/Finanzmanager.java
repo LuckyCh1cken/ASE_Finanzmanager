@@ -1,33 +1,40 @@
-import aggregates.Aggregate_Account;
-import entities.Entitie_Wallet;
+import domainservices.Domain_Service_Account;
+import javafx.application.Application;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
 import repositories.Repository_Account;
+import scene_factory.Scene_Creator;
+import scene_service.Scene_Service;
 import services.AccountManager;
-import valueobjects.VO_AccountName;
-import valueobjects.VO_Password;
-import valueobjects.VO_SpendingType;
-import valueobjects.VO_Transaction;
 
-import java.util.Date;
+public class Finanzmanager extends Application  {
 
-public class Finanzmanager {
+    private Stage mainStage;
+    private static Scene_Service sceneService;
 
     public static void main(String[] args) {
 
         Repository_Account accounts = new Repository_Bridge_Account();
-        AccountManager accountManager = new AccountManager(accounts);
-        Aggregate_Account testAccount = new Aggregate_Account(new VO_AccountName("Felix"), new VO_Password("Felix", false), new Entitie_Wallet());
-
-        testAccount.getWallet().addTransaction(new VO_Transaction(1000, new VO_SpendingType("WOHNEN"), new Date()));
-        testAccount.getWallet().addTransaction(new VO_Transaction(10200, new VO_SpendingType("WOHNEN"), new Date()));
-        testAccount.getWallet().addTransaction(new VO_Transaction(1000, new VO_SpendingType("WOHNEN"), new Date()));
-        testAccount.getWallet().addTransaction(new VO_Transaction(10020, new VO_SpendingType("WOHNEN"), new Date()));
-        testAccount.getWallet().addTransaction(new VO_Transaction(10200, new VO_SpendingType("WOHNEN"), new Date()));
-
-
-        accounts.addAccount(testAccount);
-
-        System.out.println(accountManager.login("Felix", "Felix"));
-
+        Domain_Service_Account accountService = new AccountManager(accounts);
+        sceneService = new Scene_Service(accountService);
+        launch(args);
 
     }
+
+    @Override
+    public void start(Stage stage) {
+        mainStage = stage;
+
+        //Image icon = new Image("/smallIcon.png");
+        //mainStage.getIcons().add(icon);
+
+        mainStage.setTitle("Finanzmanager");
+        mainStage.setResizable(false);
+
+       this.sceneService.setMainStage(mainStage);
+       this.sceneService.changeScene(Scene_Creator.SCENE.LOGIN);
+        mainStage.show();
+    }
+
+
 }

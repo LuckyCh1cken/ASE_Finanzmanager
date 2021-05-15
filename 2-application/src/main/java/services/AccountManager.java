@@ -2,7 +2,9 @@ package services;
 
 import aggregates.Aggregate_Account;
 import domainservices.Domain_Service_Account;
+import entities.Entitie_Wallet;
 import repositories.Repository_Account;
+import valueobjects.VO_AccountName;
 import valueobjects.VO_Password;
 import valueobjects.VO_Transaction;
 
@@ -27,7 +29,6 @@ public class AccountManager implements Domain_Service_Account {
         List<Aggregate_Account> accounts = accountRepository.getAllAccounts();
 
         VO_Password hashedPassword = new VO_Password(password, false);
-
 
         accounts.forEach(account -> {
             if(account.getAccountName().getName().equals(accountName) && account.getPassword().getHashedPassword().equals(hashedPassword.getHashedPassword())){
@@ -57,5 +58,33 @@ public class AccountManager implements Domain_Service_Account {
         currentAccount.getWallet().addTransaction(transaction);
 
         accountRepository.saveChanges();
+    }
+
+    @Override
+    public boolean register(String accountName, String password) {
+        if(currentAccount != null){
+            throw new RuntimeException("User is already logged in");
+        }
+
+        List<Aggregate_Account> accounts = accountRepository.getAllAccounts();
+
+        VO_Password hashedPassword = new VO_Password(password, false);
+
+        for(Aggregate_Account account: accounts){
+            if(account.getAccountName().getName().equals(accountName)){
+                return false;
+            }
+        }
+
+        VO_AccountName vo_accountName = new VO_AccountName(accountName);
+        Entitie_Wallet wallet =  new Entitie_Wallet();
+
+        Aggregate_Account newAccount = new Aggregate_Account(vo_accountName, hashedPassword, wallet);
+
+        currentAccount = newAccount;
+        accountRepository.addAccount(newAccount);
+        accountRepository.saveChanges();
+
+        return true;
     }
 }
