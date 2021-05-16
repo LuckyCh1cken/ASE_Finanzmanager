@@ -160,7 +160,7 @@ public class Repository_Bridge_Account implements Repository_Account {
           wallet.addTransaction(parseTransactionObject((JSONObject) transaction));
         });
 
-        return new Aggregate_Account(new VO_AccountName(name), new VO_Password(hashedPassword, false), wallet);
+        return new Aggregate_Account(new VO_AccountName(name), new VO_Password(hashedPassword, true), wallet);
     }
 
     private VO_Transaction parseTransactionObject(JSONObject transaction){

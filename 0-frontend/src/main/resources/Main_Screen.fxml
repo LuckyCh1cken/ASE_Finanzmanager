@@ -4,7 +4,8 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddTransaction">
    <children>
       <Label layoutX="227.0" layoutY="62.0" prefHeight="63.0" prefWidth="173.0" text="Account_Name">
@@ -12,7 +13,23 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="203.0" layoutY="157.0" prefHeight="33.0" prefWidth="222.0" text="Balance" />
-      <Button layoutX="262.0" layoutY="238.0" mnemonicParsing="false" text="Add_Transaction" />
+      <Label layoutX="203.0" layoutY="125.0" prefHeight="33.0" prefWidth="222.0" text="Balance" />
+      <Button fx:id="addTransaction" layoutX="262.0" layoutY="298.0" mnemonicParsing="false" text="Add_Transaction" />
+      <Button fx:id="transactionHistory" layoutX="256.0" layoutY="343.0" mnemonicParsing="false" text="TransactionHistory" />
+      <Label layoutX="269.0" layoutY="175.0" prefHeight="25.0" prefWidth="90.0" text="New Transaction" />
+      <TextField fx:id="newTransactionValue" layoutX="240.0" layoutY="219.0" promptText="Amount" />
+      <ComboBox layoutX="239.0" layoutY="257.0" prefWidth="150.0" promptText="Spending Type" >
+      <items>
+         <FXCollections fx:factory="observableArrayList">
+            <String fx:id="mobility" fx:value="MOBILITÄT" />
+            <String fx:id="food" fx:value="LEBENSMITTEL" />
+            <String fx:id="savings" fx:value="SPAREN" />
+            <String fx:id="home" fx:value="WOHNEN" />
+            <String fx:id="income" fx:value="EINNAHMEN" />
+            <String fx:id="health" fx:value="GESUNDHEIT" />
+            <String fx:id="something" fx:value="SONSTIGES" />
+         </FXCollections>
+      </items>
+      </ComboBox>
    </children>
 </AnchorPane>

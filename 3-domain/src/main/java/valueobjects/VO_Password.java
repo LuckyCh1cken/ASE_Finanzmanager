@@ -1,9 +1,12 @@
 package valueobjects;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.SecureRandom;
 import java.util.Objects;
+
 
 public final class VO_Password {
 
@@ -27,9 +30,7 @@ public final class VO_Password {
 
         try{
 
-            MessageDigest md = MessageDigest.getInstance("SHA-512");
-            byte[] hashedPassword = md.digest(password.getBytes(StandardCharsets.UTF_8));
-            return new String(hashedPassword);
+            return DigestUtils.sha256Hex(password);
 
         }
         catch(Exception e){

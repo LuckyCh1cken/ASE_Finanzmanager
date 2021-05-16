@@ -28,8 +28,6 @@ public class Login_Scene extends Basic_Scene{
         System.out.println("Building Login Scene");
 
         try {
-            //FXMLLoader loader = new FXMLLoader(getClass().getResource("/login.fxml"));
-            //loader.setController(this);
 
             AnchorPane root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/login.fxml")));
 

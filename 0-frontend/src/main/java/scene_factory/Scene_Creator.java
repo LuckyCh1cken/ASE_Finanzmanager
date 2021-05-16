@@ -12,7 +12,7 @@ public abstract class Scene_Creator {
 
     public enum SCENE {
         MAIN_SCREEN,
-        ADD_TRANSACTION,
+        TRANSACTION_HISTORY,
         LOGIN
     }
 
