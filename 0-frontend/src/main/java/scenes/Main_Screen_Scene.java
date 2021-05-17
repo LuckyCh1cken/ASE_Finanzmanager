@@ -16,7 +16,7 @@ public class Main_Screen_Scene extends Basic_Scene{
 
     @FXML private TextField newTransactionValue;
     @FXML private ComboBox newSpendingType;
-    @FXML private Label balance;
+    @FXML private Label accountBalance;
     @FXML private Label accountName;
 
     @Override
@@ -43,7 +43,9 @@ public class Main_Screen_Scene extends Basic_Scene{
 
     @FXML
     public void initialize(){
-        balance.setText("Balance: " + String.valueOf(Basic_Scene.accountService.getAccount().getWallet().getBalance()) + "€");
+        accountBalance.setText("Balance: " +
+                String.valueOf(Basic_Scene.accountService.getAccount().getWallet().getBalance()) +
+                "€");
         accountName.setText(super.accountService.getAccount().getAccountName().getName());
 
     }
@@ -68,7 +70,9 @@ public class Main_Screen_Scene extends Basic_Scene{
 
         VO_Transaction newTransaction = new VO_Transaction(value , spendingType, new Date());
         super.accountService.addTransaction(newTransaction);
-        balance.setText("Balance: " + String.valueOf(super.accountService.getAccount().getWallet().getBalance())+"€");
+        accountBalance.setText("Balance: " +
+                String.valueOf(super.accountService.getAccount().getWallet().getBalance())+
+                "€");
     }
 
     public void transactionHistoryPressed(){

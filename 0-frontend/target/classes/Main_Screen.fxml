@@ -13,7 +13,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Label fx:id="balance" alignment="CENTER" layoutX="203.0" layoutY="112.0" prefHeight="33.0" prefWidth="222.0" text="Balance">
+      <Label fx:id="accountbalance" alignment="CENTER" layoutX="203.0" layoutY="112.0" prefHeight="33.0" prefWidth="222.0" text="Balance">
          <font>
             <Font size="18.0" />
          </font></Label>

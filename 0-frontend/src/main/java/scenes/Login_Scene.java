@@ -9,7 +9,6 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import scene_factory.Scene_Creator;
-import services.AccountManager;
 
 import java.util.Objects;
 
@@ -29,7 +28,7 @@ public class Login_Scene extends Basic_Scene{
 
         try {
 
-            AnchorPane root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/login.fxml")));
+            AnchorPane root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/Login_Screen.fxml")));
 
             super.scene = new Scene(root);
 

@@ -5,12 +5,9 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.AnchorPane;
-import javafx.util.Callback;
 import scene_factory.Scene_Creator;
-import valueobjects.VO_Transaction;
 
 import java.util.*;
 
@@ -32,7 +29,7 @@ public class Transaction_History_Scene extends Basic_Scene{
 
         try {
 
-            AnchorPane root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/Transaction_History.fxml")));
+            AnchorPane root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/Transaction_History_Screen.fxml")));
 
             super.scene = new Scene(root);
 
@@ -55,7 +52,9 @@ public class Transaction_History_Scene extends Basic_Scene{
     {
 
         super.accountService.getAccount().getWallet().getTransactionHistory().forEach(transaction -> {
-            transactions.add(String.valueOf(transaction.getValue()) + "€, " + transaction.getSpendingType().getSpendingType() + ", " + transaction.getDate());
+            transactions.add(String.valueOf(transaction.getValue()) +
+                    "€, " + transaction.getSpendingType().getSpendingType() +
+                    ", " + transaction.getDate());
         });
 
         Collections.reverse(transactions);
