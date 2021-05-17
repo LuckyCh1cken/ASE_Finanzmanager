@@ -70,7 +70,9 @@ public class AccountManager implements Domain_Service_Account {
         }
 
         if(accountName.length() < 4 || password.length() < 4){
+            System.out.println("1");
             return false;
+
         }
 
         List<Aggregate_Account> accounts = accountRepository.getAllAccounts();

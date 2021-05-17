@@ -4,16 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c28f100-9def-4ec8-ae98-7bd5ffcd0708" name="Default Changelist" comment="">
+    <list default="true" id="a7d1191c-52a5-4f70-8f14-86fd409c4daa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/AccountManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/Repository_Bridge_AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/test/java/scene_factory/Scene_CreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/test/java/valueobjects/VO_PasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-adapter/src/test/java/Account/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Login_Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Login_Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Main_Screen_Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Main_Screen_Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Transaction_History_Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Transaction_History_Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/Main_Screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Main_Screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/Transaction_History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Transaction_History_Screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Login_Screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/0-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Main_Screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Main_Screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Login_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Login_Scene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Main_Screen_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Main_Screen_Scene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Transaction_History_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Transaction_History_Scene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/2-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/2-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +63,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jrt://E:/Intellij/IntelliJ IDEA 2019.1.2/jre64!/java.base/java/lang/IllegalArgumentException.class" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectId" id="1sToWV62cJsnEhyZHTOzKVKx0sQ" />
+  <component name="ProjectId" id="1sfgXPuoEUYApHyGZrZFB26KBTV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,27 +85,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SceneBuilder/SceneBuilder.exe" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/0-frontend/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaFx/javafx-sdk-16/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="ReaderModeSettings">
-    <option name="enabled" value="false" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+      <recent name="scene_service" />
+      <recent name="Transaction" />
+      <recent name="Account" />
+      <recent name="valueobjects" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Finanzmanager">
     <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
-      <module name="0-frontend" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;G:\JavaFx\javafx-sdk-16\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scene_Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scene_Login" />
       <module name="0-frontend" />
       <option name="VM_PARAMETERS" value="--module-path &quot;G:\JavaFx\javafx-sdk-16\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
@@ -86,45 +131,102 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0-Plugins" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1-adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Account" />
+      <option name="MAIN_CLASS_NAME" value="Account.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scene_ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0-frontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scene_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scene_service" />
+      <option name="MAIN_CLASS_NAME" value="scene_service.Scene_ServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VO_PasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0-frontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="valueobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="valueobjects" />
+      <option name="MAIN_CLASS_NAME" value="valueobjects.VO_PasswordTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Finanzmanager" />
-      <item itemvalue="Application.Scene_Login" />
+      <item itemvalue="JUnit.VO_PasswordTest" />
+      <item itemvalue="JUnit.AccountTest" />
+      <item itemvalue="JUnit.Scene_ServiceTest" />
+      <item itemvalue="JUnit.AccountManagerTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Finanzmanager" />
-        <item itemvalue="Application.Scene_Login" />
+        <item itemvalue="JUnit.AccountManagerTest" />
+        <item itemvalue="JUnit.Scene_ServiceTest" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.VO_PasswordTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c28f100-9def-4ec8-ae98-7bd5ffcd0708" name="Default Changelist" comment="" />
-      <created>1620905974222</created>
+      <changelist id="a7d1191c-52a5-4f70-8f14-86fd409c4daa" name="Default Changelist" comment="" />
+      <created>1621269099656</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620905974222</updated>
-      <workItem from="1620905976659" duration="14466000" />
-      <workItem from="1621082990407" duration="12495000" />
-      <workItem from="1621106530385" duration="651000" />
-      <workItem from="1621107193152" duration="397000" />
-      <workItem from="1621159026037" duration="4434000" />
-      <workItem from="1621237554666" duration="11321000" />
+      <updated>1621269099656</updated>
+      <workItem from="1621269102183" duration="35000" />
+      <workItem from="1621269147992" duration="9798000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

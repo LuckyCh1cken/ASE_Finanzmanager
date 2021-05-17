@@ -25,9 +25,6 @@ public class Finanzmanager extends Application  {
     public void start(Stage stage) {
         mainStage = stage;
 
-        //Image icon = new Image("/smallIcon.png");
-        //mainStage.getIcons().add(icon);
-
         mainStage.setTitle("Finanzmanager");
         mainStage.setResizable(false);
 
