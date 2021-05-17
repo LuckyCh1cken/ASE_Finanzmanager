@@ -11,6 +11,7 @@ public class VO_SpendingType {
 
     public static final List<String> allowedTypes = Arrays.asList("LEBENSMITTEL", "MOBILITÄT", "SPAREN", "WOHNEN", "EINNAHMEN", "GESUNDHEIT", "SONSTIGES");
 
+
     public VO_SpendingType(String spendingType) {
         if(isValid(spendingType)){
             this.spendingType = spendingType;

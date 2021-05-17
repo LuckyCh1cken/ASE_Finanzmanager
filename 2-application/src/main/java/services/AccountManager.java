@@ -25,6 +25,9 @@ public class AccountManager implements Domain_Service_Account {
         if(currentAccount != null){
             throw new RuntimeException("User is already logged in");
         }
+        if(accountName.length() < 4 || password.length() < 4){
+            return false;
+        }
 
         List<Aggregate_Account> accounts = accountRepository.getAllAccounts();
 
@@ -66,6 +69,10 @@ public class AccountManager implements Domain_Service_Account {
             throw new RuntimeException("User is already logged in");
         }
 
+        if(accountName.length() < 4 || password.length() < 4){
+            return false;
+        }
+
         List<Aggregate_Account> accounts = accountRepository.getAllAccounts();
 
         VO_Password hashedPassword = new VO_Password(password, false);
@@ -86,5 +93,15 @@ public class AccountManager implements Domain_Service_Account {
         accountRepository.saveChanges();
 
         return true;
+    }
+
+    @Override
+    public Aggregate_Account getAccount() {
+        return this.currentAccount;
+    }
+
+    @Override
+    public List<VO_Transaction> getTransactions() {
+        return this.currentAccount.getWallet().getTransactionHistory();
     }
 }

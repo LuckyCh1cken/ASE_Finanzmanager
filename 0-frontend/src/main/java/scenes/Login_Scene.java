@@ -40,6 +40,8 @@ public class Login_Scene extends Basic_Scene{
     }
 
     public void loginPress(){
+
+
         if(super.accountService.login(username.getText(), password.getText())){
             Basic_Scene.sceneService.changeScene(Scene_Creator.SCENE.MAIN_SCREEN);
         }

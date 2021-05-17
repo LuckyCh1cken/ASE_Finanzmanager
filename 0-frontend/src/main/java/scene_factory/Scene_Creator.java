@@ -17,11 +17,11 @@ public abstract class Scene_Creator {
     }
 
     public Basic_Scene getScene(SCENE sceneName, Scene_Service sceneService, Domain_Service_Account accountService) {
-        Basic_Scene newScene = createBoggleScene(sceneName);
+        Basic_Scene newScene = createBasicScene(sceneName);
         return finalizeScene(newScene, sceneService, accountService);
     }
 
-    protected abstract Basic_Scene createBoggleScene(SCENE sceneName);
+    protected abstract Basic_Scene createBasicScene(SCENE sceneName);
 
     private Basic_Scene finalizeScene(Basic_Scene scene, Scene_Service sceneService, Domain_Service_Account accountService) {
         scene.setSceneService(sceneService);

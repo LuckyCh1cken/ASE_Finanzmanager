@@ -5,35 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c28f100-9def-4ec8-ae98-7bd5ffcd0708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Transaction_History_Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Trasnsaction_History.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Transaction_History.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/0-Plugins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/0-Plugins.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/main/java/Repository_Bridge_Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/target/classes/Repository_Bridge_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/classes/Repository_Bridge_Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/0-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scene_factory/Scene_Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scene_factory/Scene_Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scene_factory/Scene_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scene_factory/Scene_Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Add_Transaction_Scene.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Login_Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Login_Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Main_Screen_Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Main_Screen_Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/Add_Transaction.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Transaction_History_Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/scenes/Transaction_History_Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/Main_Screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/resources/Main_Screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/resources/Trasnsaction_History.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Add_Transaction.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Main_Screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Main_Screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Creator$SCENE.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Creator$SCENE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Creator.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Creator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Factory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Factory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scene_factory/Scene_Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Add_Transaction_Scene.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Login_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Login_Scene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Main_Screen_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Main_Screen_Scene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapter/1-adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapter/1-adapter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-application/2-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/2-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/3-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/3-domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/valueobjects/VO_Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Transaction_History_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Transaction_History_Scene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/classes/services/AccountManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/services/AccountManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/domainservices/Domain_Service_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/src/main/java/valueobjects/VO_SpendingType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/domainservices/Domain_Service_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/domainservices/Domain_Service_Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,13 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,7 +127,8 @@
       <workItem from="1621082990407" duration="12495000" />
       <workItem from="1621106530385" duration="651000" />
       <workItem from="1621107193152" duration="397000" />
-      <workItem from="1621159026037" duration="4433000" />
+      <workItem from="1621159026037" duration="4434000" />
+      <workItem from="1621237554666" duration="9070000" />
     </task>
     <servers />
   </component>
@@ -142,11 +142,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
