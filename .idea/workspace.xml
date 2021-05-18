@@ -5,55 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d1191c-52a5-4f70-8f14-86fd409c4daa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/AccountManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/Repository_Bridge_AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/test/java/scene_factory/Scene_CreatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-frontend/src/test/java/valueobjects/VO_PasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-adapter/src/test/java/Account/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/0-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/0-frontend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/src/main/java/Finanzmanager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Finanzmanager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/Main_Screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/Main_Screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Login_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Login_Scene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Main_Screen_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Main_Screen_Scene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Transaction_History_Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-frontend/target/classes/scenes/Transaction_History_Scene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-application/2-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/2-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/src/main/java/services/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/Accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/src/test/java/AccountManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/AccountManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/target/test-classes/AccountManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/test-classes/AccountManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +64,7 @@
       <recent name="valueobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Finanzmanager">
+  <component name="RunManager" selected="JUnit.AccountManagerTest">
     <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
       <module name="0-frontend" />
@@ -118,15 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Finanzmanager" />
         <item itemvalue="JUnit.AccountManagerTest" />
+        <item itemvalue="Application.Finanzmanager" />
         <item itemvalue="JUnit.Scene_ServiceTest" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.VO_PasswordTest" />
@@ -211,7 +164,8 @@
       <option name="presentableId" value="Default" />
       <updated>1621269099656</updated>
       <workItem from="1621269102183" duration="35000" />
-      <workItem from="1621269147992" duration="9798000" />
+      <workItem from="1621269147992" duration="10090000" />
+      <workItem from="1621321321415" duration="1094000" />
     </task>
     <servers />
   </component>
@@ -228,5 +182,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
