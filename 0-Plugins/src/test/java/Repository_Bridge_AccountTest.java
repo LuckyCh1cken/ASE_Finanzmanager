@@ -1,8 +1,10 @@
+import Mocks.Repository_Bridge_Account_Mock;
 import aggregates.Aggregate_Account;
 import entities.Entitie_Wallet;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 import org.junit.Test;
+import repositories.Repository_Account;
 import valueobjects.VO_AccountName;
 import valueobjects.VO_Password;
 
@@ -10,7 +12,7 @@ public class Repository_Bridge_AccountTest extends TestCase {
 
     @Test
     public void testAddAccount() {
-       Repository_Bridge_Account accounts = new Repository_Bridge_Account();
+       Repository_Account accounts = new Repository_Bridge_Account_Mock();
        accounts.loadAllAccounts();
         VO_AccountName name = new VO_AccountName("Felix");
         VO_Password password = new VO_Password("Felix", false);
@@ -22,7 +24,7 @@ public class Repository_Bridge_AccountTest extends TestCase {
 
     @Test
     public void testGetAllAccounts() {
-        Repository_Bridge_Account accounts = new Repository_Bridge_Account();
+        Repository_Account accounts = new Repository_Bridge_Account_Mock();
         accounts.loadAllAccounts();
         VO_AccountName name = new VO_AccountName("Felix");
         VO_Password password = new VO_Password("Felix", false);

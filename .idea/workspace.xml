@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d1191c-52a5-4f70-8f14-86fd409c4daa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/Mocks/Repository_Bridge_Account_Mock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/Accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/Accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/src/test/java/AccountManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/AccountManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/target/test-classes/AccountManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/test-classes/AccountManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/src/test/java/Repository_Bridge_AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/Repository_Bridge_AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-Plugins/target/test-classes/Repository_Bridge_AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/test-classes/Repository_Bridge_AccountTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="valueobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountManagerTest">
+  <component name="RunManager" selected="JUnit.Repository_Bridge_AccountTest">
     <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
       <module name="0-frontend" />
@@ -73,13 +73,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Repository_Bridge_AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0-Plugins" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Repository_Bridge_AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scene_ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="0-frontend" />
       <extension name="coverage">
@@ -123,35 +134,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VO_PasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="0-frontend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="valueobjects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="valueobjects" />
-      <option name="MAIN_CLASS_NAME" value="valueobjects.VO_PasswordTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Finanzmanager" />
-      <item itemvalue="JUnit.VO_PasswordTest" />
       <item itemvalue="JUnit.AccountTest" />
       <item itemvalue="JUnit.Scene_ServiceTest" />
       <item itemvalue="JUnit.AccountManagerTest" />
+      <item itemvalue="JUnit.Repository_Bridge_AccountTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Repository_Bridge_AccountTest" />
         <item itemvalue="JUnit.AccountManagerTest" />
         <item itemvalue="Application.Finanzmanager" />
         <item itemvalue="JUnit.Scene_ServiceTest" />
         <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.VO_PasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +161,8 @@
       <updated>1621269099656</updated>
       <workItem from="1621269102183" duration="35000" />
       <workItem from="1621269147992" duration="10090000" />
-      <workItem from="1621321321415" duration="1094000" />
+      <workItem from="1621321321415" duration="1294000" />
+      <workItem from="1621323168211" duration="527000" />
     </task>
     <servers />
   </component>
