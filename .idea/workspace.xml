@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ASE_Finanzmanager:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d1191c-52a5-4f70-8f14-86fd409c4daa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/Mocks/Repository_Bridge_Account_Mock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ASE_Finanzmanager_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/finanzmanager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-domain/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/src/test/java/Repository_Bridge_AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/src/test/java/Repository_Bridge_AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-Plugins/target/test-classes/Repository_Bridge_AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/0-Plugins/target/test-classes/Repository_Bridge_AccountTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaFx/javafx-sdk-16/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -64,7 +69,7 @@
       <recent name="valueobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Repository_Bridge_AccountTest">
+  <component name="RunManager" selected="Application.Finanzmanager">
     <configuration name="Finanzmanager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Finanzmanager" />
       <module name="0-frontend" />
@@ -73,15 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,9 +146,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Finanzmanager" />
         <item itemvalue="JUnit.Repository_Bridge_AccountTest" />
         <item itemvalue="JUnit.AccountManagerTest" />
-        <item itemvalue="Application.Finanzmanager" />
         <item itemvalue="JUnit.Scene_ServiceTest" />
         <item itemvalue="JUnit.AccountTest" />
       </list>
@@ -162,7 +165,8 @@
       <workItem from="1621269102183" duration="35000" />
       <workItem from="1621269147992" duration="10090000" />
       <workItem from="1621321321415" duration="1294000" />
-      <workItem from="1621323168211" duration="527000" />
+      <workItem from="1621323168211" duration="1135000" />
+      <workItem from="1622301745748" duration="956000" />
     </task>
     <servers />
   </component>

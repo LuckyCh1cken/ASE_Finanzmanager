@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="finanzmanager">
+    <output-path>$PROJECT_DIR$/out/artifacts/finanzmanager</output-path>
+    <root id="archive" name="finanzmanager.jar">
+      <element id="module-output" name="0-frontend" />
+      <element id="module-output" name="0-Plugins" />
+      <element id="module-output" name="1-adapter" />
+      <element id="module-output" name="2-application" />
+      <element id="module-output" name="3-domain" />
+    </root>
+  </artifact>
+</component>
